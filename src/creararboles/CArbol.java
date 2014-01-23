@@ -14,7 +14,7 @@ public class CArbol {
     int altmedia;
     int peso;
     String commit1;
-    String commit2;
+   
 
     public CArbol() {
     }
@@ -24,7 +24,7 @@ public class CArbol {
         this.zona = zona;
         this.altmedia = altmedia;
         this.commit1="hola";
-        this.commit2="adios";
+        
         
     }
 
