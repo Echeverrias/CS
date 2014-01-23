@@ -13,8 +13,7 @@ public class App
         A claseA= new A(5);
         B claseB= new B(5);
         C claseC= new C();
-        int valor;
-        valor= claseA.getValor()+claseB.getValor();
+        int valor= claseA.getValor()+claseB.getValor();
         claseC.setValor(valor);
          System.out.println( claseC.toString());
     }

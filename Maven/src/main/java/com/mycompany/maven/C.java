@@ -11,6 +11,7 @@ package com.mycompany.maven;
 public class C {
     
     private int valor;
+    String info;
 
     public C() {
     }
