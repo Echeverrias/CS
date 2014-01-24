@@ -19,4 +19,8 @@ public class Saludo {
      public void maldecir(){
         System.out.println("Me cago en to!!!");
     }
+     
+     public void despedir(){
+        System.out.println("Adios majete!!!");
+    }
 }
