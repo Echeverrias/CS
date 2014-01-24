@@ -9,6 +9,51 @@
 
   <name>NexusMaven</name>
   <url>http://maven.apache.org</url>
+  
+  <!-- Configuración del repositorio -->
+
+	
+
+<scm>
+
+
+   <connection>
+
+	
+
+     scm:git:https://github.com/Echeverrias/CS
+
+	
+
+   </connection>
+
+	
+
+   <developerConnection>
+
+	
+
+     scm:git:https://github.com/Echeverrias/CS
+
+	
+
+   </developerConnection>
+
+	
+
+   <url>
+
+	
+
+      https://github.com/Echeverrias/CS/
+
+	
+
+   </url>
+
+	
+
+</scm>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
