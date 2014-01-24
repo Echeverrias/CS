@@ -15,13 +15,13 @@
 
     <scm>
         <connection>
-            scm:git:https://github.com/Echeverrias/CS
+            scm:git:https://github.com/Echeverrias/CS/tree/master/NexusMaven
         </connection>
         <developerConnection>
-            scm:git:https://github.com/Echeverrias/CS
+            scm:git:https://github.com/Echeverrias/CS/tree/master/NexusMaven
         </developerConnection>
         <url>
-            https://github.com/Echeverrias/CS/
+            https:https://github.com/Echeverrias/CS/tree/master/NexusMaven/
         </url>
     </scm>
    
