@@ -23,7 +23,6 @@
         <url>
             https://github.com/Echeverrias/CS/
         </url>
-       <tag>mvn intall</tag>
     </scm>
    
     <distributionManagement>
