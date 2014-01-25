@@ -1,0 +1,64 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.josito</groupId>
+  <artifactId>maven2</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>maven2</name>
+  <url>http://maven.apache.org</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+  <scm>
+        <connection>
+            scm:git:git@github.com:Echeverrias/CS/tree/master/maven2.git
+        </connection>
+        <developerConnection>
+            scm:git:git@github.com:Echeverrias/CS/tree/master/maven2.git
+        </developerConnection>
+        <url>
+            https://github.com/Echeverrias/CS/tree/master/maven2
+        </url>
+      
+  </scm>
+  
+  <distributionManagement>
+            <repository>
+                <id>nexus</id>
+                <name>Repositorio de producción </name>
+                <url>http://127.0.0.1:8080/nexus/content/repositories/releases</url>
+            </repository>
+            <snapshotRepository>
+                <id>nexus</id>
+                <name>Repositorio de desarrollo </name>
+                <url>http://127.0.0.1:8080/nexus/content/repositories/snapshots/</url>
+            </snapshotRepository>
+        </distributionManagement>
+
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.10</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+  
+  <build>
+    <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                <source>1.6</source>
+                <target>1.6</target>
+            </configuration>
+        </plugin>
+    </plugins>
+    </build>
+
+</project>
