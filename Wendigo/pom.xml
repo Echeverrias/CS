@@ -14,6 +14,18 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
   
+   <scm>
+        <connection>
+            scm:github:https://github.com/Echeverrias/CS/tree/master/NexusMaven
+        </connection>
+        <developerConnection>
+            scm:github:https://github.com/Echeverrias/CS/tree/master/NexusMaven
+        </developerConnection>
+        <url>
+            https://github.com/Echeverrias/CS/tree/master/NexusMaven/
+        </url>
+    </scm>
+  
     <distributionManagement>
             <repository>
                 <id>nexus</id>
