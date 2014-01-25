@@ -15,13 +15,13 @@
   
   <scm>
         <connection>
-            scm:git:https://github.com/Echeverrias/CS/tree/master/Audrey
+            scm:git:git@github.com:Echeverrias/CS/tree/master/Audrey.git
         </connection>
         <developerConnection>
-            scm:git:https://github.com/Echeverrias/CS/tree/master/Audrey
+            scm:git:git@github.com:Echeverrias/CS/tree/master/Audrey.git
         </developerConnection>
         <url>
-            https://github.com/Echeverrias/CS/tree/master/Audrey/
+            https://github.com/Echeverrias/CS/tree/master/Audrey
         </url>
       
     <tag>Audrey-5.0</tag>
