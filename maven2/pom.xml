@@ -35,7 +35,7 @@
             <snapshotRepository>
                 <id>nexus</id>
                 <name>Repositorio de desarrollo </name>
-                <url>http://127.0.0.1:8080/nexus/content/repositories/snapshots/</url>
+                <url>http://127.0.0.1:8080/nexus/content/repositories/snapshots</url>
             </snapshotRepository>
         </distributionManagement>
 
