@@ -14,12 +14,39 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
+  <scm>
+        <connection>
+            scm:git:git@github.com:Echeverrias/CS/tree/master/Zombie.git
+        </connection>
+        <developerConnection>
+            scm:git:git@github.com:Echeverrias/CS/tree/master/Zombie.git
+        </developerConnection>
+        <url>
+            https://github.com/Echeverrias/CS/tree/master/Zombie
+        </url>
+      
+  </scm>
+  
+  <distributionManagement>
+            <repository>
+                <id>releases</id>
+                <name>Repositorio de producción </name>
+                <url>http://127.0.0.1:8080/nexus/content/repositories/releases</url>
+            </repository>
+            <snapshotRepository>
+                <id>snapshots</id>
+                <name>Repositorio de desarrollo </name>
+                <url>http://127.0.0.1:8080/nexus/content/repositories/snapshots</url>
+            </snapshotRepository>
+        </distributionManagement>
+
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
-      <version>3.8.1</version>
+      <version>4.10</version>
       <scope>test</scope>
     </dependency>
   </dependencies>
+  
 </project>
