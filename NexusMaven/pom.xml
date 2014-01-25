@@ -12,19 +12,21 @@
   <!-- Configuración del repositorio -->
 
 	
-<!--
-    <scm>
+
+   <scm>
         <connection>
-            scm:git:https://github.com/Echeverrias/CS/tree/master/NexusMaven
+            scm:git:git@github.com:Echeverrias/CS/tree/master/NexusMaven.git
         </connection>
         <developerConnection>
-            scm:git:https://github.com/Echeverrias/CS/tree/master/NexusMaven
+            scm:git:git@github.com:Echeverrias/CS/tree/master/NexusMaven.git
         </developerConnection>
         <url>
-            https:https://github.com/Echeverrias/CS/tree/master/NexusMaven/
+            https://github.com/Echeverrias/CS/tree/master/NexusMaven
         </url>
-    </scm>
-   -->
+      
+    
+  </scm>
+  
     <distributionManagement>
         <repository>
             <id>nexus</id>
