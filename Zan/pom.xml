@@ -36,7 +36,7 @@
     <distributionManagement>
         <repository>
             <id>releases</id>
-            <name>Repositorio de producción </name>
+            <name>Repositorio de producciÃ³n </name>
             <url>http://127.0.0.1:8080/nexus/content/repositories/releases</url>
         </repository>
         <snapshotRepository>
@@ -58,8 +58,7 @@
     </dependency>
   </dependencies>
   
-  <profile>
-   <id>gitrelease</id>
+  
    <build>
     <plugins>
      <plugin>
@@ -167,6 +166,6 @@
      </plugin>
     </plugins>
    </build>
-  </profile>
+  
   
 </project>
