@@ -29,14 +29,14 @@
   
     <distributionManagement>
         <repository>
-            <id>nexus</id>
+            <id>releases</id>
             <name>Repositorio de producción </name>
             <url>http://127.0.0.1:8080/nexus/content/repositories/releases</url>
         </repository>
         <snapshotRepository>
-            <id>nexus</id>
+            <id>snapshots</id>
             <name>Repositorio de desarrollo </name>
-            <url>http://127.0.0.1:8080/nexus/content/repositories/snapshots/</url>
+            <url>http://127.0.0.1:8080/nexus/content/repositories/snapshots</url>
         </snapshotRepository>
     </distributionManagement>
 
@@ -49,8 +49,24 @@
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
-      <version>3.8.1</version>
+      <version>4.10</version>
       <scope>test</scope>
     </dependency>
   </dependencies>
+  
+   <build>
+    <pluginManagement>
+      <plugins>
+        <plugin>
+              <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-release-plugin</artifactId>
+          <version>2.4.2</version>
+          <configuration>
+            <username>Echeverrias</username>
+            <password>benreilly555</password>
+          </configuration>
+        </plugin>
+        </plugins>
+      </pluginManagement>  
+    </build>  
 </project>
